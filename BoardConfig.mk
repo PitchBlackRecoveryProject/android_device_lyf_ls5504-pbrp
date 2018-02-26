@@ -16,7 +16,7 @@
 # Product-specific compile-time definitions.
 #
 
-LOCAL_PATH := device/LYF/ls5504
+LOCAL_PATH := device/lyf/ls5504
 
 TARGET_BOARD_VENDOR := LYF
 
@@ -52,7 +52,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt $(LOCAL_PATH)/recovery/dt.img
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/recovery/kernel
-
+TARGET_KERNEL_CONFIG := zx55q05_defconfig
 # Init
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 

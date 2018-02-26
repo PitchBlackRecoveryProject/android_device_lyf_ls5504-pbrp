@@ -15,7 +15,7 @@
 ## Specify phone tech before including full_phone
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
-$(call inherit-product, device/zte/ls5504/full_ls5504.mk)
+$(call inherit-product, device/lyf/ls5504/full_ls5504.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
