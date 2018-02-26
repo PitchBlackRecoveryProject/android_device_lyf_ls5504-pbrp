@@ -31,7 +31,7 @@ PRODUCT_PACKAGES += \
 # Kernel
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/kernel:kernel \
-    $(LOCAL_PATH)/recovery/dt.img:dt.img
+    $(LOCAL_PATH)/dt.img:dt.img
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ls5504
