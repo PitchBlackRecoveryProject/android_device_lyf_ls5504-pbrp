@@ -50,9 +50,8 @@ BOARD_KERNEL_CMDLINE := console=115200,n8 androidboot.console=ttyHSL0 androidboo
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt $(LOCAL_PATH)/recovery/dt.img
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt $(LOCAL_PATH)/dt.img
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/recovery/kernel
-TARGET_KERNEL_CONFIG := zx55q05_defconfig
 # Init
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 
