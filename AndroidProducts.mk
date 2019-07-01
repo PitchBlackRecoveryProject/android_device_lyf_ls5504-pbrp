@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_mobee01a.mk \
-	$(LOCAL_DIR)/full_mobee01a.mk
+	$(LOCAL_DIR)/omni_zx55q05.mk \
+	$(LOCAL_DIR)/full_zx55q05.mk
