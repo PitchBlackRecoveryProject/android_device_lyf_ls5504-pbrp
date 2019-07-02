@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/LYF/zx55q05
+LOCAL_PATH := device/lyf/zx55q05
 
 # Architecture
 TARGET_ARCH := arm64
