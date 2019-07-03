@@ -103,4 +103,4 @@ TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_FUSE_NTFS := true
 
 #Official
-PB_OFFICIAL := false
+PB_OFFICIAL := true
